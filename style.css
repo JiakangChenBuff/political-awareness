@@ -114,3 +114,31 @@ body {
     transition: 1s;
     opacity: 1;
 }
+/* for the about page */
+div#mainarea {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+div#description {
+    margin: 2em;
+    display: inline-block;
+    color: #a39493;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+div#title {
+    font-weight: bold;
+    text-align: center;
+    color: #363333;
+}
+
+img#photo {
+    max-height: 85%;
+    max-width: 40%;
+    grid-area: photo;
+    padding: 2vw;
+}

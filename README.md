@@ -4,7 +4,7 @@
 
 ## About Page To-Do
 1. Add Hero
-2. Add 2-column layout (picture + description)
+2. Add 2-column layout (picture + description) (done. It looks a lot better with a photo in it, but I wasn't sure what we wanted)
 
 ## Content Page To-Do
 1. Add Hero

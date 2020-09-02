@@ -114,7 +114,7 @@ body {
     transition: 1s;
     opacity: 1;
 }
-/* for the about page */
+/* for the about page (I can put it in the about page file if that would be better) */
 div#mainarea {
     display: flex;
     flex-direction: row;

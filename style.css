@@ -4,7 +4,6 @@ body {
     margin: 0px;
     background-color: white;
     height: 100%;
-    margin-bottom: 30px;
 }
 
 .container {
@@ -114,6 +113,54 @@ body {
     transition: 1s;
     opacity: 1;
 }
+
+/* Home Styles */
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2.5%;
+}
+
+.home-image-wrapper {
+    display: grid;
+    align-items: center;
+}
+
+.home-image-wrapper img {
+    width: 75%;
+    margin: auto;
+}
+
+.home-text-wrapper h1 {
+    font-size: 4.5em;
+    color: #eb4236;
+}
+
+.home-text-wrapper h2 {
+    font-size: 2.5em;
+    color: #eb908a; 
+}
+
+.animate-home-text-wrapper h1 {
+    font-size: 6em;
+    color: #eb4236;
+    margin-left: 20%;
+}
+
+.animate-home-text-wrapper h2 {
+    font-size: 2.5em;
+    color: #eb908a;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.animate-home-text-wrapper span {
+    background: #eb908a;
+    width: 70%;
+    display: block;
+    height: 5px;
+}
+
 /* for the about page (I can put it in the about page file if that would be better) */
 div#mainarea {
     display: flex;

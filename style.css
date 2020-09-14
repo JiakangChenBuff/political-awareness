@@ -15,7 +15,7 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding: 2vw;
 }
 
 .left-side {
@@ -24,12 +24,12 @@ body {
 
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
-    font-size: 0.9em;
+    font-size: 1.1vw;
     text-transform: uppercase;
 }
 
 .nav-link-wrapper {
-    height: 22px;
+    height: 1.3vw;
     border-bottom: 1px solid transparent;
 }
 
@@ -90,19 +90,19 @@ body {
 .banner-text-wrapper h1 {
     text-align: center;
     color: #eb4236;
-    font-size: 7.5em;
+    font-size: 8vw;
 }
 
 .banner-text-wrapper h2 {
     text-align: center;
     color: #f06960;
-    font-size: 3.5em;
+    font-size: 4vw;
 }
 
 .banner-text-wrapper img {
     top: 280px;
     width: 4%;
-    padding-top: 50px;
+    padding-top: 4vw;
     padding-left: 48%;
     opacity: 0;
 }
@@ -135,18 +135,18 @@ body {
 }
 
 .home-text-wrapper h2 {
-    font-size: 2.5em;
+    font-size: 2.5vw;
     color: #eb908a; 
 }
 
 .animate-home-text-wrapper h1 {
-    font-size: 5em;
+    font-size: 5vw;
     color: #eb4236;
     margin-left: 20%;
 }
 
 .animate-home-text-wrapper h2 {
-    font-size: 2.5em;
+    font-size: 2.5vw;
     color: #eb908a;
     margin-left: 20%;
     margin-top: 5%;
@@ -156,7 +156,7 @@ body {
     background: #eb908a;
     width: 70%;
     display: block;
-    height: 5px;
+    height: 0.3vw;
 }
 
 /* for the about page (I can put it in the about page file if that would be better) */
@@ -191,7 +191,6 @@ div.articles {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 div.article {
@@ -206,8 +205,8 @@ div.article {
 a.article-head {
     font-weight: bold;
     text-decoration: none;
+    font-size: 2vw;
     color: black;
-
 }
 
 a.article-head:hover {
@@ -215,6 +214,7 @@ a.article-head:hover {
 }
 
 div.article-description {
+    margin-top: 0.5vw;
     word-wrap: break-word;
 }
 

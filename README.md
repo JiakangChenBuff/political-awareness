@@ -11,4 +11,4 @@
 2. Not sure, we need some more guidelines for this page I think
 
 ## General To-Do
-1. Make page look good when you resize the window
+1. Make page look good when you resize the window (I did a bit of this, but we need to finish it)

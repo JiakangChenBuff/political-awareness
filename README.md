@@ -9,7 +9,7 @@
 
 ## Opinions Page To-Do
 1. Add Hero
-2. Not sure, we need some more guidelines for this page I think
+2. Not sure, we need some more guidelines for this page I think - agreed
 
 ## General To-Do
 1. Make page look good when you resize the window (I did a bit of this, but we need to finish it)

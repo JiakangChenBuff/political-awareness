@@ -11,6 +11,14 @@ body {
     grid-template-columns: 1fr;
 }
 
+/* Footer Styles */
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #eb908a;
+    height: 20vw;
+}
+
 /* Nav Styles */
 .nav-wrapper {
     display: flex;
@@ -101,7 +109,7 @@ body {
 
 .banner-text-wrapper img {
     top: 280px;
-    width: 4%;
+    width: 7vw;
     padding-top: 4vw;
     padding-left: 48%;
     opacity: 0;
@@ -116,7 +124,8 @@ body {
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 2.5%;
+    grid-template-rows: 20vw 20vw;
+    align-items: center;
 }
 
 .home-image-wrapper {

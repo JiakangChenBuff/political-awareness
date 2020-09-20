@@ -5,13 +5,11 @@
 
 ## Content Pages To-Do
 1. Fix link/hover glitch on first article title ~~(I tried to fix it but I really can't figure out what's going on. It won't let you click on the link on the first article on every page, but if you insert an article above it, it works & the code is exactly the same. It doesn't make any sense)~~ Should be fixed now
-2. Make colors of images match with header?
+2. Make colors of images match with header? (I'm not opposed)
 
 ## Opinions Page To-Do
 1. Add Hero
-2. Not sure, we need some more guidelines for this page I think - agreed
 
 ## General To-Do
 1. Make page look good when you resize the window (I did a bit of this, but we need to finish it)
-2. If we want it to look good on mobile, we'll probably have to use @media
-3. Add a footer (links to social media and about page)
+2. I tried to make the page a bit more responsive, can yall do a bit of testing and see how it looks with diff. screen sizes.

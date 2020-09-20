@@ -17,6 +17,54 @@ body {
     grid-template-columns: 1fr;
     background-color: #eb908a;
     height: 20vw;
+    justify-content: center;
+}
+
+.social-media-wrapper {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-media-image-wrapper {
+    margin-right: 1.5vw;
+}
+
+.social-media-image-wrapper img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.footer-wrapper span {
+    display: block;
+    width: 80%;
+    height: 0.3vw;
+    background: #f1f1f1;
+    margin-left: 10%;
+}
+
+.footer-logo-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3vw 3vw;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-logo-wrapper h4 {
+    font-size: 1.5vw;
+    text-align: center;
+    color: #f1f1f1;
+    height: 3vw;
+    margin: 0;
+}
+
+.footer-logo-wrapper p {
+    text-align: center;
+    color: #f1f1f1;
+    height: 3vw;
+    margin: 0;
 }
 
 /* Nav Styles */
@@ -31,14 +79,14 @@ body {
 }
 
 .nav-wrapper > .left-side > div {
-    margin-right: 20px;
+    margin-right: 2vw;
     font-size: 1.1vw;
     text-transform: uppercase;
 }
 
 .nav-link-wrapper {
     height: 1.3vw;
-    border-bottom: 1px solid transparent;
+    border-bottom: 0.05px solid transparent;
 }
 
 .nav-link-wrapper a {
@@ -49,10 +97,11 @@ body {
 .brand > div {
     color: #eb4236;
     font-weight: 600;
+    font-size: 1.5vw;
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid #eb4236;
+    border-bottom: 0.05vw solid #eb4236;
 }
 
 .nav-link-wrapper a:hover {
@@ -76,7 +125,7 @@ body {
 
 .banner-wrapper {
     position: relative;
-    height: 750px;
+    height: 55vw;
     width: 100%;
     align-content: center;
 }
@@ -85,14 +134,14 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height:750px;
+    height:55vw;
 }
 
 .banner-text-wrapper {
     position: absolute;
-    top: 100px;
+    top: 12vw;
     width: 100%;
-    height: 650px;
+    height: 45vw;
 }
 
 .banner-text-wrapper h1 {
@@ -105,19 +154,6 @@ body {
     text-align: center;
     color: #f06960;
     font-size: 4vw;
-}
-
-.banner-text-wrapper img {
-    top: 280px;
-    width: 7vw;
-    padding-top: 4vw;
-    padding-left: 48%;
-    opacity: 0;
-}
-
-.banner-text-wrapper:hover img {
-    transition: 1s;
-    opacity: 1;
 }
 
 /* Home Styles */
@@ -139,7 +175,7 @@ body {
 }
 
 .home-text-wrapper h1 {
-    font-size: 4.5em;
+    font-size: 4.5vw;
     color: #eb4236;
 }
 

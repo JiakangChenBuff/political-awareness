@@ -72,6 +72,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 2vw;
+    box-shadow: 0.5vw 0.01vw 2vw lightgrey;
 }
 
 .left-side {
@@ -278,23 +279,30 @@ div.article-page {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2em;
 }
 
 div.article-title {
-    width: 60%;
+    width: 50%;
     font-weight: bold;
     font-size: 3vw;
+    color: darkslategray;
+}
+
+div.author {
+    width: 50%;
 }
 
 div.article-photo {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2em;
 }
 
 div.article-date {
-    width: 60%;
+    width: 50%;
 }
 
 img.article-img {
@@ -307,6 +315,8 @@ h1.caption {
 
 div.words {
     width: 50%;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.2em;
 }
 
 p {

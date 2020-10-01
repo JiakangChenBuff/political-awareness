@@ -136,7 +136,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 55vw;
+    height: 45vw;
 }
 
 .banner-text-wrapper {
@@ -209,9 +209,14 @@ body {
 /* for the about page (I can put it in the about page file if that would be better) */
 div#mainarea {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 100%;
     width: 100%;
+}
+
+div#WhoWeAre {
+    display: flex;
+    flex-direction: row;
 }
 
 div#description {

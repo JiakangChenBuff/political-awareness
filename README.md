@@ -15,6 +15,5 @@
 
 ## General To-Do
 
-1. Change About to About Us
 2. Add information about AV Web Dev to About Us
 3. Create a mobile version

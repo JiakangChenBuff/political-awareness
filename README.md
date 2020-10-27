@@ -15,5 +15,4 @@
 
 ## General To-Do
 
-2. Add information about AV Web Dev to About Us
-3. Create a mobile version
+1. Create a mobile version

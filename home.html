@@ -22,7 +22,7 @@
 
                 <div class="nav-link-wrapper">
 
-                    <a href="about.html">About Us</a>
+                    <a href="about.html">About</a>
 
                 </div>
                 
@@ -207,6 +207,16 @@
 
     </div>
 
+    <script>   
+        document.onreadystatechange = function () {
+                if (document.readyState !== "complete") {
+                    document.querySelector("body").style.visibility = "hidden";
+                    console.log("greeting");
+                } else {
+                    document.querySelector("body").style.visibility = "visible";
+                }
+            };
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>

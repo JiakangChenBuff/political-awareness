@@ -206,6 +206,15 @@ body {
 }
 
 /* for the about page (I can put it in the about page file if that would be better) */
+div.person {
+  width: 90%;
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  color: #a39493;
+}
+
 div#mainarea {
   display: flex;
   flex-direction: column;
@@ -226,7 +235,7 @@ div#description {
   width: 60%;
 }
 
-div#title {
+div.title {
   font-weight: bold;
   text-align: center;
   color: #363333;

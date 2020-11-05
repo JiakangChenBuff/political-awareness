@@ -301,8 +301,14 @@ div.article-title {
   color: darkslategray;
 }
 
-div.author {
+a.author {
+  text-decoration: none;
+  color: black;
   width: 50%;
+}
+
+.author:hover {
+  color: #f06960;
 }
 
 div.article-photo {
@@ -327,10 +333,46 @@ h1.caption {
 
 div.words {
   width: 50%;
-  /* font-family: "Times New Roman", sans-serif; */
   font-size: 1.2em;
 }
 
 p {
   text-indent: 2em;
+}
+
+/* styling for the author bio pages */
+
+h1.name {
+  color: slategray;
+  text-align: center;
+}
+
+div.biocontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+div.bio {
+  color: slategray;
+  padding: 1em;
+  width: 70%;
+}
+
+h1.other {
+  color: slategray;
+  font-size: 1.5em;
+}
+
+a.link {
+  display: inline-block;
+  padding: 1.5em;
+  margin: 0.4em;
+  color: white;
+  text-decoration: none;
+  background-color: lightgrey;
+
+}
+
+.link:hover {
+  color: #f06960;
 }

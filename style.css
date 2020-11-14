@@ -329,6 +329,7 @@ a.author {
 }
 
 div.article-photo {
+  height: 20vw;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -341,7 +342,8 @@ div.article-date {
 }
 
 img.article-img {
-  width: 100%;
+  /* width: 100%; */
+  height: 100%;
 }
 
 h1.caption {

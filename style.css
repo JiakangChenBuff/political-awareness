@@ -146,9 +146,11 @@ body {
 }
 
 .banner-text-wrapper h1 {
+  word-spacing: 100vw;
   text-align: center;
   color: #eb4236;
   font-size: 8vw;
+  vertical-align: middle;
 }
 
 .banner-text-wrapper h2 {

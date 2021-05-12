@@ -159,6 +159,25 @@ body {
   font-size: 4vw;
 }
 
+.banner-text-wrapper-home {
+  position: absolute;
+  top: 8vw;
+  height: 18vw;
+}
+
+.banner-text-wrapper-home h1 {
+  text-align: center;
+  color: #eb4236;
+  font-size: 8vw;
+  vertical-align: middle;
+}
+
+.banner-text-wrapper-home h2 {
+  text-align: center;
+  color: #f06960;
+  font-size: 4vw;
+}
+
 /* Home Styles */
 .two-column {
   display: grid;

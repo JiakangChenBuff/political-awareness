@@ -11,6 +11,22 @@ body {
   grid-template-columns: 1fr;
 }
 
+a:link {
+  color: #eb4236;
+}
+
+a:visited {
+  color: #eb4236;
+}
+
+a:hover {
+  color: #eb908a;
+}
+
+a:active {
+  color: #eb908a;
+}
+
 /* Footer Styles */
 .footer-wrapper {
   display: grid;
